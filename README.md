@@ -9,4 +9,7 @@ Carico in questo repository i file delle lezioni: ogni file viene caricato su un
 
 ### Argomenti
 
+Lezione 1
+
 - [Installare l'ambiente](lezione1.md)
+- [Un primo esempio](lezione1.py)
