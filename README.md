@@ -5,7 +5,7 @@
 - di: Luca Bellomi
 - anno: 2023
 
-Carico in questo repository i file delle lezioni: ogni file viene caricato su una sua branch "lezioneN"
+
 
 ### Argomenti
 
