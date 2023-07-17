@@ -5,7 +5,7 @@
 - di: Luca Bellomi
 - anno: 2023
 
-
+### [calendario](calendario_incontri.md)
 
 ### Argomenti
 
