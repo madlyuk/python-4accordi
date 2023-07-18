@@ -5,11 +5,9 @@
 - di: Luca Bellomi
 - anno: 2023
 
-### [calendario](calendario_incontri.md)
+### [Calendario incontri](calendario_incontri.md)
 
 ### Argomenti
 
-Lezione 1
-
-- [Installare l'ambiente](lezione1.md)
-- [Un primo esempio](lezione1.py)
+- [Lezione 1](lezione1.md) | [Codice](lezione1.py)
+- [Lezione 2](lezione2.md) | [Codice](lezione2.py)
