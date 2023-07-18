@@ -1,4 +1,7 @@
 - i commenti (scorciatoie da vscode)
 - qualche approfondimento sulle stringhe
+- funzioni sul testo
 - come vedere i tipi di variabili
 - come convertire i tipi 
+- funzioni sui numeri
+- operatori booleani
