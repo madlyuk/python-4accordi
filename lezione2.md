@@ -1,0 +1,3 @@
+- qualche approfondimento sulle stringhe
+- come vedere i tipi di variabili
+- come convertire i tipi 
