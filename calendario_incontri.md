@@ -1,10 +1,12 @@
 # Calendario Lezioni 
+
+
 ### Alunna: Sofia Tenedini
 
-Fatte
+#### Fatte
 
 17/07/2023 ore 19:00 - durata 1h
 
-Prossima
+#### Prossima
 
 21/07/2023 ore 19:00 - durata 1h
