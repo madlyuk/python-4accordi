@@ -5,6 +5,11 @@ ma questa volta è fatto su più righe.
 Gli IDE in generale permettono di selezionare più righe e commentarle, 
 ma lo fanno nel primo modo, inserendo i simboli "#"
 """
+
+'''
+anche con gli apici singoli
+'''
+
 # Selezionare le righe che vogliamo commentare e premere: CTRL + k + c 
 # Stessa cosa di prima, ma premendo CTRL + k + u per eliminare i commenti
 # I commenti sono utili per rendere leggibile il codice a tutti e anche a noi stessi se passa troppo tempo
@@ -23,6 +28,26 @@ var6= {
         "età":48,
         "città":"Mantova",
         }
+var7 = [
+        { 
+            "nome":"silvio",
+            "cognome":"Berlusconi",
+            "classe": "1b"
+
+        },
+        { 
+            "nome":"Mario",
+            "cognome":"Rossi",
+            "classe": "3A"
+
+        },
+        { 
+            "nome":"stefania",
+            "cognome":"bortolotti",
+            "classe": "5C"
+
+        }
+]
 
 print(
     f"""
@@ -32,12 +57,16 @@ print(
     var4={var4} - è una variabile di tipo {type(var4)};
     var5={var5} - è una variabile di tipo {type(var5)};
     var6={var6} - è una variabile di tipo {type(var6)};
+    var7={var7} - è una variabile di tipo {type(var7)};
+    var7-BIS={var7} - l'elemento nella var7 è una variabile di tipo {type(var7[1].get("nome"))};
     
     """
 )
 
 
 print(" --- Esempio 2: come inserire contenuti tra apici dentro una stringa? --- ")
+
+# su python 3.11.4  non funziona il \"
 print(
     """
     e Dante scrisse: \"Nel mezzo del cammin di nostra vita...\"
@@ -46,6 +75,9 @@ print(
 
     """
 )
+
+pippo = "il professore ha detto:  \"Nel mezzo del cammin di nostra vita...\" "
+print (pippo)
 
 print(" --- Esempio 3: alcune funzioni delle stringhe --- ")
 # abbiamo già visto la funzione capitalize() che imposta la prima lettera di una stringa in maiuscolo.
@@ -78,7 +110,8 @@ age = 30
 # se provassi a scrivere un testo concatenando le due variabili otterrei un errore:
 # devo eseguire un "cast" della variabile numerica per convertirla in testo
 print(f"L'utente {name} ha {age} anni!")
-# in questo caso ho docuto convertire l'intero in quanto è all'interno della stringa
+print("L'utente " + name + " ha " + str(age) + " anni!")
+# in questo caso non ho docuto convertire l'intero in quanto lo fa per me f-string
 # Potrei pero' stampare solo la variabile age, e in questo caso python riconoscerebbe che deve fare la conversione in automatico:
 print("L'utente " + name + " ha ")
 print(age)
@@ -87,7 +120,7 @@ print(" anni!")
 numero1="30"
 numero2="4"
 moltiplicazione = int(numero1) * int(numero2)
-print(f"{numero1} x {numero2} = {str(moltiplicazione)}")
+print(f"{numero1} x {numero2} = {moltiplicazione}")
 
 print(" --- Esempio 5: Alcune funzioni numeriche --- ")
 # Alcune funzioni utili con i numeri
