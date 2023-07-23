@@ -1,3 +1,4 @@
+
 # Calendario Lezioni 
 
 
@@ -13,4 +14,3 @@
 
 24/07/2023 ore 19:00 - durata 1h
 28/07/2023 ore 19:00 - durata 1h
-
