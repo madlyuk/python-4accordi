@@ -1,5 +1,5 @@
-- if
+- dizionari
+- liste
+- if elif else
 - while
 - for
-
-### "..work in progress.."
