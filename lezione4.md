@@ -1,0 +1,2 @@
+- ripasso sulle strutture dati complessi con dict e list
+- i metodi
