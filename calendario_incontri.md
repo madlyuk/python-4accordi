@@ -10,10 +10,10 @@
 - 24/07/2023 ore 19:00 - durata 1h (lun)
 - 28/07/2023 ore 19:00 - durata 1h (ven)
 - 31/07/2023 ore 19:00 - durata 1h (lun)
+  
 #### Prossima
 
-
-- 04/08/2023 ore 19:00 - durata 1h (ven)
+- ~~04/08/2023 ore 19:00 - durata 1h (ven)~~ --> da recuperare causa motivi di lavoro
 - 07/08/2023 ore 19:00 - durata 1h (lun)
 - 11/08/2023 ore 19:00 - durata 1h (lun) --> ??? forse sono via ???
 [sono via dal 12/8 al 20/8 per ferie]
