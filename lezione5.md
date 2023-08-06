@@ -5,7 +5,7 @@ def nome_metodo(par1, par2,... par8="pippo",par9=True,par10=1):
     return risultato
 
 
-- esercizio conta frequenza caratteri nella stringa
+- esercizio conta frequenza caratteri nella stringa --> fatto direttamente su pc dell'alunna
 
 Sezione: A
 -----------
