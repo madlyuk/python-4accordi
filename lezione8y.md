@@ -1,0 +1,1 @@
+- overview generale di informatica con le versioni, pychar e poi siamo andti avanti con le classi
