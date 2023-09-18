@@ -1,5 +1,6 @@
 alunni = [
-            { 
+            {
+                "id":1,
                 "nome":"Mario",
                 "cognome":"Rossi",
                 "età":12,
@@ -8,7 +9,8 @@ alunni = [
                 "residenza":"via Cisa",
                 "città": "Marmirolo"
             },
-            { 
+            {
+                "id":2,
                 "nome":"Francesco",
                 "cognome":"Tosetti",
                 "età":12,
@@ -16,7 +18,8 @@ alunni = [
                 "residenza":"via Bertolotti",
                 "città": "Mantova"
             },
-            { 
+            {
+                "id": 3,
                 "nome":"Luca",
                 "cognome":"Sgarbi",
                 "età":13,
@@ -24,7 +27,8 @@ alunni = [
                 "residenza":"via Marmore",
                 "città": "Mantova"
             },
-            { 
+            {
+                "id": 4,
                 "nome":"Sandro",
                 "cognome":"Pedroni",
                 "età":12,
@@ -32,7 +36,8 @@ alunni = [
                 "residenza":"via Delle Torri 12",
                 "città": "Borgovirgilio"
             },
-            { 
+            {
+                "id": 4,
                 "nome":"Mauro",
                 "cognome":"Dall'Olio",
                 "età":12,
@@ -40,7 +45,8 @@ alunni = [
                 "residenza":"via Cisa",
                 "città": "Motteggiana"
             },
-            { 
+            {
+                "id": 5,
                 "nome":"Franco",
                 "cognome":"Stecca",
                 "età":11,
@@ -48,7 +54,8 @@ alunni = [
                 "residenza":"via Pompilio 2",
                 "città": "Suzzara"
             },
-            { 
+            {
+                "id": 6,
                 "nome":"Walter",
                 "cognome":"Vicentini",
                 "età":12,
@@ -56,7 +63,8 @@ alunni = [
                 "residenza":"via Tassoni",
                 "città": "Gonzaga"
             },
-            { 
+            {
+                "id": 7,
                 "nome":"Mario",
                 "cognome":"Rossi",
                 "età":11,

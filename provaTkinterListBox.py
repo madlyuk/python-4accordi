@@ -21,20 +21,33 @@ window.configure(background="white")
 
 
 
+def search_student(id):
+    ret = False
+    for alunno in alunni:
 
+        if int(id) == int(alunno.get("id")):
+            ret = Studente(
+                nome=alunno.get("nome"),
+                cognome=alunno.get("cognome"),
+                età=alunno.get("età"),
+                residenza=alunno.get("residenza"),
+                città=alunno.get("città"),
+                classe_attuale=alunno.get("classe_attuale"),
+                scuola=alunno.get("scuola")
+            )
+    return ret
 
 
 
 def items_selected(event):
     # get all selected indices
     selected_indices = listbox.curselection()
+    print(selected_indices)
     # get selected items
-    selected_student = ",".join([listbox.get(i) for i in
-                                 selected_indices])
-
-    # stampa_lista_schede(lista_studenti)
-
-    msg = f'You selected: {selected_student}'
+    # selected_student = ",".join([listbox.get(i) for i in
+    #                              selected_indices])
+    selected_student = search_student(selected_indices[0])
+    msg = f'You selected: {selected_student.scheda_personale()}'
     # visualizzo la selezione in un alert
     showinfo(title='Information', message=msg)
 
@@ -66,7 +79,9 @@ listbox = tk.Listbox(
 )
 
 for alunno in alunni:
-    listbox.insert(tk.END, alunno.get("nome") + " " + alunno.get("cognome"))
+    # listbox.insert(tk.END, alunno.get("nome") + " " + alunno.get("cognome"))
+    listbox.insert(alunno.get("id"), alunno.get("nome") + " " + alunno.get(
+        "cognome"))
 
 
 # scrollbar.config(command=listbox.yview)
